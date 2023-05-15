@@ -10,7 +10,7 @@ local options = {
         icon = 'fa-solid fa-cigarette',
         label = 'Acquista sigaretta',
         items = {
-            ['money'] = 2
+            ['money'] = 1
         },
         onSelect = function()
             TriggerServerEvent('macchinetta:buyitem', 'wool')
@@ -31,7 +31,7 @@ local options = {
         icon = 'fa-solid fa-cigarette',
         label = 'Acquista pane',
         items = {
-            ['money'] = 2
+            ['money'] = 1
         },
         onSelect = function()
             TriggerServerEvent('macchinetta:buyitem', 'pane')
